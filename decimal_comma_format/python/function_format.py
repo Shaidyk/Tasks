@@ -1,6 +1,5 @@
 def format_digits(value):
-    source = "{:,d}"
-    return source.format(value)
+    return "{:,d}".format(value)
 
 
 value_list = [1000, 200, 1234567]
